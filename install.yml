@@ -1,4 +1,5 @@
 - hosts: "{{ _hosts }}"
+  become: true
   vars:
     httpd_pkg:
       - httpd
